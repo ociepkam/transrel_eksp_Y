@@ -1,0 +1,3472 @@
+- answer: B/A
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B/A
+  - A/B
+  - A/C
+  stimulus: &id001
+  - A\B
+  - C/B
+  with_equal: false
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - A|C
+  - C|B
+  - B/C
+  stimulus: &id003
+  - A\B
+  - C|B
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B\C
+  - A\B
+  - B/C
+  stimulus: &id004
+  - A/B
+  - A\C
+  with_equal: false
+- answer: A\B
+  answer_type: identical
+  order: BAC
+  pairs:
+  - A\B
+  - B\A
+  - B\C
+  stimulus: &id008
+  - A\B
+  - A/C
+  with_equal: false
+- answer: C\B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - C/A
+  - C\B
+  - A\B
+  stimulus: &id002
+  - A/B
+  - C\B
+  with_equal: false
+- answer: C/B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - A/C
+  - C/B
+  - B\A
+  stimulus: *id001
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C\B
+  - C|B
+  - A\C
+  stimulus: &id007
+  - A\B
+  - C|A
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A\C
+  - A/C
+  - C/B
+  stimulus: *id002
+  with_equal: false
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - A\B
+  - B|C
+  - C|A
+  stimulus: &id005
+  - A/B
+  - B|C
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A/C
+  - A\C
+  - C\B
+  stimulus: *id001
+  with_equal: false
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - C|A
+  - A\C
+  - C\B
+  stimulus: *id003
+  with_equal: true
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A|C
+  - A\B
+  - B|C
+  stimulus: &id006
+  - A/B
+  - A|C
+  with_equal: true
+- answer: A/B
+  answer_type: identical
+  order: CAB
+  pairs:
+  - C\A
+  - B/C
+  - A/B
+  stimulus: *id004
+  with_equal: false
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - B\C
+  - B|C
+  - C|A
+  stimulus: *id005
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - C|B
+  - B\C
+  - B/A
+  stimulus: *id006
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - C/B
+  - A/C
+  - C|A
+  stimulus: *id005
+  with_equal: true
+- answer: B\C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B\C
+  - B/C
+  - C\A
+  stimulus: *id001
+  with_equal: false
+- answer: C/A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C/A
+  - A/C
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - B|C
+  - B|A
+  - C/A
+  stimulus: *id005
+  with_equal: true
+- answer: B/C
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C/A
+  - B/C
+  - B\C
+  stimulus: *id002
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - C/A
+  - B\C
+  stimulus: *id002
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - A|B
+  - A\C
+  stimulus: *id005
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B\C
+  - A|B
+  - B/C
+  stimulus: *id006
+  with_equal: true
+- answer: B\A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - B\A
+  - C\B
+  - A/C
+  stimulus: *id004
+  with_equal: false
+- answer: A\B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - A\B
+  - B/C
+  - A/C
+  stimulus: *id001
+  with_equal: false
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A\C
+  - A|C
+  - B|C
+  stimulus: *id007
+  with_equal: true
+- answer: A\B
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C/B
+  - A/B
+  - A\B
+  stimulus: *id008
+  with_equal: false
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A/C
+  - A|C
+  - C|B
+  stimulus: *id007
+  with_equal: true
+- answer: A\C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A\C
+  - A/C
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - B/A
+  - A\C
+  - C|A
+  stimulus: *id003
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B\C
+  - A\B
+  - C\B
+  stimulus: *id004
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - C|A
+  - A/C
+  - C\B
+  stimulus: *id005
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\C
+  - C\A
+  - B/C
+  stimulus: *id001
+  with_equal: false
+- answer: C/B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C\A
+  - B/C
+  - C/B
+  stimulus: *id001
+  with_equal: false
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - C|A
+  - B|C
+  - B/C
+  stimulus: *id003
+  with_equal: true
+- answer: C\A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - C\A
+  - B\A
+  - C/B
+  stimulus: *id008
+  with_equal: false
+- answer: A/C
+  answer_type: identical
+  order: BAC
+  pairs:
+  - B\A
+  - B\C
+  - A/C
+  stimulus: *id008
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - A|B
+  - C/A
+  stimulus: *id005
+  with_equal: true
+- answer: C\A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - C/A
+  - B\C
+  - C\A
+  stimulus: *id008
+  with_equal: false
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C|B
+  - A|B
+  - A/C
+  stimulus: *id003
+  with_equal: true
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C|A
+  - B|A
+  - C\B
+  stimulus: *id006
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B/A
+  - B\C
+  - B|C
+  stimulus: *id006
+  with_equal: true
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C|B
+  - A\B
+  - C|A
+  stimulus: *id003
+  with_equal: true
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C|B
+  - B|A
+  - A/C
+  stimulus: *id003
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A\B
+  - A/C
+  - C|A
+  stimulus: *id005
+  with_equal: true
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A|C
+  - A|B
+  - C\B
+  stimulus: *id006
+  with_equal: true
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C|B
+  - C|A
+  - A\B
+  stimulus: *id007
+  with_equal: true
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C|A
+  - A|B
+  - B\C
+  stimulus: *id007
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A\B
+  - C/A
+  - A/C
+  stimulus: *id002
+  with_equal: false
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A/C
+  - B/C
+  - A\C
+  stimulus: *id001
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - C/B
+  - A/C
+  - A|C
+  stimulus: *id005
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A/B
+  - C\A
+  - A\C
+  stimulus: *id001
+  with_equal: false
+- answer: B/C
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C/B
+  - B/C
+  - C/A
+  stimulus: *id002
+  with_equal: false
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - A|C
+  - A\B
+  - B|C
+  stimulus: *id003
+  with_equal: true
+- answer: A/B
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A/C
+  - A/B
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: B\A
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - A\C
+  - B\C
+  - B\A
+  stimulus: *id002
+  with_equal: false
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A\B
+  - A|C
+  - C|B
+  stimulus: *id007
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - C\A
+  - A\C
+  - A/B
+  stimulus: *id001
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C\B
+  - B\A
+  - B\C
+  stimulus: *id008
+  with_equal: false
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C|B
+  - C|A
+  - A\C
+  stimulus: *id006
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\C
+  - A|C
+  - B/A
+  stimulus: *id003
+  with_equal: true
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - A/C
+  - C|A
+  - B|C
+  stimulus: *id007
+  with_equal: true
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C|B
+  - C|A
+  - B/C
+  stimulus: *id003
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - B/A
+  - A/C
+  - A\C
+  stimulus: *id002
+  with_equal: false
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C/B
+  - C|A
+  - C|B
+  stimulus: *id003
+  with_equal: true
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C|A
+  - B\C
+  - C|B
+  stimulus: *id003
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\C
+  - A|B
+  - A/C
+  stimulus: *id003
+  with_equal: true
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C|B
+  - C|A
+  - A/C
+  stimulus: *id007
+  with_equal: true
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C|B
+  - C\B
+  - A|C
+  stimulus: *id003
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B\C
+  - A|B
+  - C\B
+  stimulus: *id006
+  with_equal: true
+- answer: C/A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C/A
+  - C\A
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C|B
+  - B/C
+  - C|A
+  stimulus: *id005
+  with_equal: true
+- answer: B\A
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - A\B
+  - C/A
+  - B\A
+  stimulus: *id002
+  with_equal: false
+- answer: A\B
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C/A
+  - C/B
+  - A\B
+  stimulus: *id008
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C/A
+  - C/B
+  - C\B
+  stimulus: *id008
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C\B
+  - A|B
+  - B\C
+  stimulus: *id007
+  with_equal: true
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - B/C
+  - B|C
+  - C|A
+  stimulus: *id005
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - B\C
+  - A\C
+  - C\B
+  stimulus: *id008
+  with_equal: false
+- answer: B/A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - B/A
+  - C/B
+  - A\C
+  stimulus: *id008
+  with_equal: false
+- answer: A/B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - A\C
+  - A\B
+  - A/B
+  stimulus: *id002
+  with_equal: false
+- answer: A\B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C\A
+  - B\A
+  - A\B
+  stimulus: *id001
+  with_equal: false
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A\C
+  - C|B
+  - A|C
+  stimulus: *id007
+  with_equal: true
+- answer: C\A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - C/B
+  - C/A
+  - C\A
+  stimulus: *id008
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C|B
+  - A|B
+  - C/A
+  stimulus: *id005
+  with_equal: true
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A|C
+  - B|A
+  - C/B
+  stimulus: *id007
+  with_equal: true
+- answer: C/A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C/A
+  - A/C
+  - C\B
+  stimulus: *id004
+  with_equal: false
+- answer: B/A
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - C\A
+  - B/A
+  - B\A
+  stimulus: *id001
+  with_equal: false
+- answer: B/A
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B/C
+  - C\A
+  - B/A
+  stimulus: *id001
+  with_equal: false
+- answer: C\B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - B\C
+  - C\B
+  - A\C
+  stimulus: *id002
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - A\C
+  - C\B
+  - B|C
+  stimulus: *id007
+  with_equal: true
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - A|C
+  - A\B
+  - B|C
+  stimulus: *id005
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C\B
+  - B|A
+  - B\C
+  stimulus: *id007
+  with_equal: true
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B|C
+  - B/A
+  - A|C
+  stimulus: *id003
+  with_equal: true
+- answer: C/A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - B/A
+  - C\B
+  - C/A
+  stimulus: *id004
+  with_equal: false
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - C\B
+  - B\C
+  - C\A
+  stimulus: *id004
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - B|A
+  - A\C
+  stimulus: *id005
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - C/A
+  - A/C
+  - A\B
+  stimulus: *id002
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C|B
+  - A\B
+  - A|C
+  stimulus: *id005
+  with_equal: true
+- answer: A\B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - A\B
+  - A/B
+  - A/C
+  stimulus: *id001
+  with_equal: false
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A|C
+  - B|A
+  - C\B
+  stimulus: *id006
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - B/A
+  - A|C
+  stimulus: *id005
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A|C
+  - A\C
+  - B/C
+  stimulus: *id003
+  with_equal: true
+- answer: B\C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - C\A
+  - C\B
+  - B\C
+  stimulus: *id001
+  with_equal: false
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - A/C
+  - B\C
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: B\A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C\B
+  - B/A
+  - B\A
+  stimulus: *id004
+  with_equal: false
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - A|C
+  - C|B
+  - B/A
+  stimulus: *id003
+  with_equal: true
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C|A
+  - C/A
+  - C|B
+  stimulus: *id007
+  with_equal: true
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C|A
+  - A\B
+  - C|B
+  stimulus: *id006
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - C/A
+  - A/C
+  - C/B
+  stimulus: *id002
+  with_equal: false
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - C/B
+  - A|C
+  - A\C
+  stimulus: *id003
+  with_equal: true
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C|A
+  - C|B
+  - C\B
+  stimulus: *id005
+  with_equal: true
+- answer: A\B
+  answer_type: identical
+  order: BAC
+  pairs:
+  - B\C
+  - A\B
+  - C/A
+  stimulus: *id008
+  with_equal: false
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - C|A
+  - A\C
+  - B\C
+  stimulus: *id003
+  with_equal: true
+- answer: B/C
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - B\C
+  - B/C
+  - A\C
+  stimulus: *id002
+  with_equal: false
+- answer: A/B
+  answer_type: identical
+  order: CAB
+  pairs:
+  - C\B
+  - A/C
+  - A/B
+  stimulus: *id004
+  with_equal: false
+- answer: C/A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C/A
+  - B/A
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B\C
+  - B|C
+  - C\A
+  stimulus: *id006
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - B\C
+  - A\C
+  - A/C
+  stimulus: *id002
+  with_equal: false
+- answer: B/C
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - A\B
+  - A\C
+  - B/C
+  stimulus: *id002
+  with_equal: false
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A|C
+  - A|B
+  - B\C
+  stimulus: *id007
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\C
+  - A|C
+  - C\B
+  stimulus: *id003
+  with_equal: true
+- answer: C/A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C/A
+  - B/C
+  - A\B
+  stimulus: *id004
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - B\C
+  - A\C
+  - A/C
+  stimulus: *id002
+  with_equal: false
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A|C
+  - C|B
+  - C/A
+  stimulus: *id006
+  with_equal: true
+- answer: C\A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A/B
+  - C\A
+  - B\C
+  stimulus: *id008
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - C/A
+  - C/B
+  stimulus: *id002
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - A/B
+  - C/B
+  - C\B
+  stimulus: *id008
+  with_equal: false
+- answer: B/A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - B/A
+  - C/B
+  - B\A
+  stimulus: *id008
+  with_equal: false
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A/C
+  - A\C
+  - C\B
+  stimulus: *id001
+  with_equal: false
+- answer: B\A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - B\A
+  - A\B
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - B|C
+  - C|A
+  - A\B
+  stimulus: *id007
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\C
+  - C\A
+  - C\B
+  stimulus: *id001
+  with_equal: false
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A|C
+  - B|C
+  - B/A
+  stimulus: *id007
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A/C
+  - B\A
+  - A\C
+  stimulus: *id001
+  with_equal: false
+- answer: C\B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - A\C
+  - C\B
+  - A\B
+  stimulus: *id002
+  with_equal: false
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\C
+  - A/C
+  - A/B
+  stimulus: *id001
+  with_equal: false
+- answer: C/B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - A/B
+  - C/B
+  - A/C
+  stimulus: *id001
+  with_equal: false
+- answer: B\A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - B\A
+  - C\B
+  - A\B
+  stimulus: *id004
+  with_equal: false
+- answer: B\C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B\C
+  - C\A
+  - B\A
+  stimulus: *id001
+  with_equal: false
+- answer: C/B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C\A
+  - C\B
+  - C/B
+  stimulus: *id001
+  with_equal: false
+- answer: A\B
+  answer_type: identical
+  order: BAC
+  pairs:
+  - A\B
+  - A\C
+  - C/B
+  stimulus: *id008
+  with_equal: false
+- answer: C\B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - C/A
+  - C\B
+  - B/A
+  stimulus: *id002
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - A|C
+  - B/A
+  - C|B
+  stimulus: *id005
+  with_equal: true
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C|A
+  - B\C
+  - C|B
+  stimulus: *id005
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C\B
+  - A|B
+  - C/B
+  stimulus: *id007
+  with_equal: true
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C|B
+  - A|B
+  - C\A
+  stimulus: *id003
+  with_equal: true
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - B|C
+  - A|C
+  - A\B
+  stimulus: *id007
+  with_equal: true
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C/A
+  - B|C
+  - C|A
+  stimulus: *id006
+  with_equal: true
+- answer: A\B
+  answer_type: identical
+  order: BAC
+  pairs:
+  - A\B
+  - B\C
+  - A/B
+  stimulus: *id008
+  with_equal: false
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B\C
+  - B|C
+  - A/C
+  stimulus: *id006
+  with_equal: true
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - B|C
+  - C\B
+  - A|C
+  stimulus: *id005
+  with_equal: true
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B|C
+  - B|A
+  - A/C
+  stimulus: *id003
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C|B
+  - C\B
+  - C\A
+  stimulus: *id007
+  with_equal: true
+- answer: B\C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B\C
+  - B/C
+  - A/C
+  stimulus: *id001
+  with_equal: false
+- answer: A\C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A/C
+  - A\C
+  - C\B
+  stimulus: *id004
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - A\B
+  - A\C
+  stimulus: *id002
+  with_equal: false
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A/C
+  - A\C
+  - A/B
+  stimulus: *id001
+  with_equal: false
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B\C
+  - B|C
+  - C|A
+  stimulus: *id003
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - C\A
+  - B\C
+  - C|B
+  stimulus: *id006
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - C/A
+  - B/A
+  - A/C
+  stimulus: *id002
+  with_equal: false
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C\A
+  - C|A
+  - B|C
+  stimulus: *id007
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B\C
+  - C|B
+  - A\B
+  stimulus: *id006
+  with_equal: true
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - C/A
+  - A|C
+  - B|C
+  stimulus: *id006
+  with_equal: true
+- answer: B\A
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C/A
+  - B\C
+  - B\A
+  stimulus: *id002
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C\B
+  - B\C
+  - A\C
+  stimulus: *id008
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C/B
+  - A|C
+  - C|B
+  stimulus: *id005
+  with_equal: true
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A|C
+  - A|B
+  - B/C
+  stimulus: *id006
+  with_equal: true
+- answer: A\B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - A\B
+  - C\B
+  - C\A
+  stimulus: *id001
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - A/B
+  - C\B
+  - C/B
+  stimulus: *id008
+  with_equal: false
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C|A
+  - B|A
+  - C/B
+  stimulus: *id007
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - C\A
+  - C\B
+  - B\C
+  stimulus: *id004
+  with_equal: false
+- answer: A/B
+  answer_type: identical
+  order: CAB
+  pairs:
+  - C\B
+  - A/B
+  - B/A
+  stimulus: *id004
+  with_equal: false
+- answer: A/C
+  answer_type: identical
+  order: BAC
+  pairs:
+  - A/C
+  - B\C
+  - C/A
+  stimulus: *id008
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C|B
+  - B|A
+  - A\C
+  stimulus: *id005
+  with_equal: true
+- answer: A\B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - A\B
+  - B/C
+  - C\A
+  stimulus: *id001
+  with_equal: false
+- answer: B/A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - B\C
+  - C/A
+  - B/A
+  stimulus: *id008
+  with_equal: false
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - B|C
+  - C|A
+  - A\B
+  stimulus: *id006
+  with_equal: true
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B|C
+  - C|A
+  - C\B
+  stimulus: *id003
+  with_equal: true
+- answer: B\C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - A/C
+  - B\C
+  - C\B
+  stimulus: *id001
+  with_equal: false
+- answer: B/C
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - B/C
+  - C/A
+  - A\B
+  stimulus: *id002
+  with_equal: false
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - C|B
+  - A|C
+  - A\C
+  stimulus: *id006
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - C\A
+  - A\C
+  - C\B
+  stimulus: *id001
+  with_equal: false
+- answer: B\C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B\C
+  - A/C
+  - B\A
+  stimulus: *id001
+  with_equal: false
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\C
+  - A/C
+  - B/C
+  stimulus: *id001
+  with_equal: false
+- answer: C/A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C\A
+  - C\B
+  - C/A
+  stimulus: *id004
+  with_equal: false
+- answer: A/C
+  answer_type: identical
+  order: BAC
+  pairs:
+  - A/C
+  - C/B
+  - C/A
+  stimulus: *id008
+  with_equal: false
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - A\C
+  - C|A
+  - B|C
+  stimulus: *id007
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B\C
+  - B/C
+  - B/A
+  stimulus: *id004
+  with_equal: false
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - B|C
+  - A|B
+  - A\C
+  stimulus: *id005
+  with_equal: true
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C|B
+  - B|A
+  - C\A
+  stimulus: *id003
+  with_equal: true
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A|C
+  - B|A
+  - B/C
+  stimulus: *id006
+  with_equal: true
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B/A
+  - C|A
+  - B|C
+  stimulus: *id003
+  with_equal: true
+- answer: A/B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - C/A
+  - C/B
+  - A/B
+  stimulus: *id002
+  with_equal: false
+- answer: B\C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - A/B
+  - A/C
+  - B\C
+  stimulus: *id001
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - A/C
+  - B|C
+  - C\B
+  stimulus: *id007
+  with_equal: true
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C|A
+  - A|B
+  - C\B
+  stimulus: *id006
+  with_equal: true
+- answer: C\B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - C/B
+  - C\B
+  - C/A
+  stimulus: *id002
+  with_equal: false
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C|B
+  - B/A
+  - C|A
+  stimulus: *id007
+  with_equal: true
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C|A
+  - C|B
+  - C\B
+  stimulus: *id003
+  with_equal: true
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C\A
+  - B|C
+  - C|A
+  stimulus: *id006
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - B|C
+  - C\B
+  - B/A
+  stimulus: *id007
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - C\B
+  - A\B
+  - B\C
+  stimulus: *id004
+  with_equal: false
+- answer: C/B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - A/C
+  - B/C
+  - C/B
+  stimulus: *id001
+  with_equal: false
+- answer: B\A
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C/A
+  - B/A
+  - B\A
+  stimulus: *id002
+  with_equal: false
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - A|C
+  - C\B
+  - B|C
+  stimulus: *id003
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - B|A
+  - C/A
+  stimulus: *id005
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - C\A
+  - A\C
+  - B/C
+  stimulus: *id001
+  with_equal: false
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A|C
+  - C\A
+  - B|C
+  stimulus: *id007
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C/A
+  - B\C
+  - C\B
+  stimulus: *id008
+  with_equal: false
+- answer: B\A
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - B\A
+  - B/A
+  - A\C
+  stimulus: *id002
+  with_equal: false
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C\A
+  - C|B
+  - C|A
+  stimulus: *id007
+  with_equal: true
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A|C
+  - C|B
+  - C/A
+  stimulus: *id007
+  with_equal: true
+- answer: A/B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - C/A
+  - A/B
+  - B/A
+  stimulus: *id002
+  with_equal: false
+- answer: A\C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A\C
+  - C\A
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: B/C
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - B/A
+  - C/A
+  - B/C
+  stimulus: *id002
+  with_equal: false
+- answer: A/C
+  answer_type: identical
+  order: BAC
+  pairs:
+  - B\C
+  - A/B
+  - A/C
+  stimulus: *id008
+  with_equal: false
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - A\C
+  - B\C
+  - C|B
+  stimulus: *id006
+  with_equal: true
+- answer: C/B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - B\A
+  - C\A
+  - C/B
+  stimulus: *id001
+  with_equal: false
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - C\B
+  - B|C
+  - C|A
+  stimulus: *id005
+  with_equal: true
+- answer: A/B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - A/B
+  - A\C
+  - B/A
+  stimulus: *id002
+  with_equal: false
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - C/A
+  - B\C
+  - B|C
+  stimulus: *id006
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C/A
+  - B\C
+  - C\B
+  stimulus: *id008
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - B|C
+  - C\A
+  - C\B
+  stimulus: *id007
+  with_equal: true
+- answer: B/A
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - A/C
+  - B/A
+  - B\A
+  stimulus: *id001
+  with_equal: false
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - A|C
+  - B|C
+  - B/C
+  stimulus: *id005
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B\C
+  - B|A
+  - C\B
+  stimulus: *id006
+  with_equal: true
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - B|C
+  - B/A
+  - C|A
+  stimulus: *id006
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C\B
+  - A/B
+  - B\C
+  stimulus: *id008
+  with_equal: false
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A|C
+  - B|A
+  - B\C
+  stimulus: *id007
+  with_equal: true
+- answer: A\B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C\A
+  - A/B
+  - A\B
+  stimulus: *id001
+  with_equal: false
+- answer: C/B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C/B
+  - C\A
+  - A/B
+  stimulus: *id001
+  with_equal: false
+- answer: A/C
+  answer_type: identical
+  order: BAC
+  pairs:
+  - A/C
+  - C/B
+  - A/B
+  stimulus: *id008
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - C|A
+  - B/C
+  stimulus: *id005
+  with_equal: true
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - C/A
+  - B|C
+  - A|C
+  stimulus: *id007
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - A\B
+  - C\B
+  - B|C
+  stimulus: *id007
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\C
+  - B\A
+  - C\A
+  stimulus: *id001
+  with_equal: false
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - A/C
+  - C\B
+  - B\C
+  stimulus: *id004
+  with_equal: false
+- answer: C/B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C/B
+  - C\B
+  - A/C
+  stimulus: *id001
+  with_equal: false
+- answer: A/B
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A/B
+  - B/C
+  - A\B
+  stimulus: *id004
+  with_equal: false
+- answer: A\B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - A\B
+  - B\A
+  - A/C
+  stimulus: *id001
+  with_equal: false
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C|A
+  - B/A
+  - C|B
+  stimulus: *id006
+  with_equal: true
+- answer: B/C
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - A\C
+  - B/A
+  - B/C
+  stimulus: *id002
+  with_equal: false
+- answer: C\A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - C\A
+  - A\C
+  - B\C
+  stimulus: *id008
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A\C
+  - C/B
+  - A/C
+  stimulus: *id002
+  with_equal: false
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - B\C
+  - C|B
+  - A|C
+  stimulus: *id003
+  with_equal: true
+- answer: A\B
+  answer_type: identical
+  order: BAC
+  pairs:
+  - B\C
+  - A\B
+  - A\C
+  stimulus: *id008
+  with_equal: false
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - B|C
+  - A|B
+  - C/A
+  stimulus: *id005
+  with_equal: true
+- answer: A/B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - A/B
+  - B\C
+  - A\C
+  stimulus: *id002
+  with_equal: false
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B|C
+  - B|A
+  - C\A
+  stimulus: *id003
+  with_equal: true
+- answer: B/A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - B\C
+  - B\A
+  - B/A
+  stimulus: *id008
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - C/A
+  - B/A
+  stimulus: *id002
+  with_equal: false
+- answer: B\A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - B\A
+  - B/C
+  - A/C
+  stimulus: *id004
+  with_equal: false
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - C\A
+  - C|B
+  - A|C
+  stimulus: *id007
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - B\C
+  - A|C
+  - A/C
+  stimulus: *id005
+  with_equal: true
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A/C
+  - B|C
+  - A|C
+  stimulus: *id006
+  with_equal: true
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C|A
+  - A/C
+  - B|C
+  stimulus: *id006
+  with_equal: true
+- answer: B\A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C\B
+  - C\A
+  - B\A
+  stimulus: *id004
+  with_equal: false
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - C/B
+  - B|C
+  - A|C
+  stimulus: *id005
+  with_equal: true
+- answer: B/A
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - C\B
+  - B/A
+  - A/C
+  stimulus: *id001
+  with_equal: false
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - B|C
+  - C\A
+  - A|C
+  stimulus: *id006
+  with_equal: true
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - B|C
+  - A/C
+  - A|C
+  stimulus: *id007
+  with_equal: true
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C|A
+  - A|B
+  - B/C
+  stimulus: *id006
+  with_equal: true
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - C|B
+  - A|C
+  - B/A
+  stimulus: *id006
+  with_equal: true
+- answer: A/B
+  answer_type: identical
+  order: CAB
+  pairs:
+  - B/A
+  - A/B
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - A\B
+  - B|C
+  - C|A
+  stimulus: *id003
+  with_equal: true
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B/C
+  - B|C
+  - A|C
+  stimulus: *id003
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B\C
+  - B|A
+  - B/C
+  stimulus: *id006
+  with_equal: true
+- answer: A\C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - B/C
+  - A\C
+  - A\B
+  stimulus: *id004
+  with_equal: false
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C|A
+  - B|C
+  - A\C
+  stimulus: *id006
+  with_equal: true
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B|C
+  - A|B
+  - A/C
+  stimulus: *id003
+  with_equal: true
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C|A
+  - B/A
+  - B|C
+  stimulus: *id007
+  with_equal: true
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - B|C
+  - A|C
+  - B/A
+  stimulus: *id005
+  with_equal: true
+- answer: C/A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - A\B
+  - C\B
+  - C/A
+  stimulus: *id004
+  with_equal: false
+- answer: B/A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - C/B
+  - C/A
+  - B/A
+  stimulus: *id008
+  with_equal: false
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B/A
+  - C\B
+  - B\C
+  stimulus: *id004
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - A|C
+  - C|B
+  - C\B
+  stimulus: *id005
+  with_equal: true
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C/A
+  - C|A
+  - C|B
+  stimulus: *id006
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - B/A
+  - C|A
+  stimulus: *id005
+  with_equal: true
+- answer: B/A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - C/B
+  - A/B
+  - B/A
+  stimulus: *id008
+  with_equal: false
+- answer: A\C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A\C
+  - B/C
+  - B/A
+  stimulus: *id004
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - A\C
+  - C\B
+  - C/B
+  stimulus: *id008
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - B\C
+  - C|B
+  - A|C
+  stimulus: *id005
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B\C
+  - B/A
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B|C
+  - B\C
+  - A|C
+  stimulus: *id003
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\C
+  - C|A
+  - B/C
+  stimulus: *id003
+  with_equal: true
+- answer: A/C
+  answer_type: identical
+  order: BAC
+  pairs:
+  - B\A
+  - A/C
+  - C/B
+  stimulus: *id008
+  with_equal: false
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - A/C
+  - C|B
+  - C|A
+  stimulus: *id006
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\C
+  - B|A
+  - A/C
+  stimulus: *id003
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A\B
+  - A/C
+  - A|C
+  stimulus: *id005
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C\B
+  - B\A
+  - C/B
+  stimulus: *id008
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C|B
+  - B|A
+  - C/A
+  stimulus: *id005
+  with_equal: true
+- answer: B/C
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - B/C
+  - C/B
+  - A\C
+  stimulus: *id002
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - A|C
+  - C|B
+  - B/C
+  stimulus: *id005
+  with_equal: true
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - B/A
+  - A|C
+  - C|B
+  stimulus: *id007
+  with_equal: true
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - A|C
+  - B\C
+  - B|C
+  stimulus: *id005
+  with_equal: true
+- answer: B/A
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - A/B
+  - B/A
+  - C\A
+  stimulus: *id001
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C|B
+  - A|B
+  - A\C
+  stimulus: *id005
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - A\C
+  - C\B
+  - C/B
+  stimulus: *id008
+  with_equal: false
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C|B
+  - A\B
+  - A|C
+  stimulus: *id003
+  with_equal: true
+- answer: B\A
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - A\C
+  - C/B
+  - B\A
+  stimulus: *id002
+  with_equal: false
+- answer: C\B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - B\C
+  - C\B
+  - C/A
+  stimulus: *id002
+  with_equal: false
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - A\C
+  - B\C
+  - B|C
+  stimulus: *id006
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - C|B
+  - B\C
+  - C/A
+  stimulus: *id006
+  with_equal: true
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C|A
+  - B|A
+  - B\C
+  stimulus: *id007
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A|C
+  - A\C
+  - B\C
+  stimulus: *id003
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C\B
+  - B|C
+  - C/A
+  stimulus: *id007
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - C|B
+  - A/C
+  - B\C
+  stimulus: *id006
+  with_equal: true
+- answer: A\B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - A\B
+  - A/C
+  - C\B
+  stimulus: *id001
+  with_equal: false
+- answer: A/C
+  answer_type: identical
+  order: BAC
+  pairs:
+  - A/C
+  - A\C
+  - B\C
+  stimulus: *id008
+  with_equal: false
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - B|C
+  - B|A
+  - A\C
+  stimulus: *id005
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - C|A
+  - A\C
+  - C/B
+  stimulus: *id003
+  with_equal: true
+- answer: B\A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C\A
+  - B\A
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C|B
+  - C|A
+  - A\C
+  stimulus: *id007
+  with_equal: true
+- answer: C\A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A\C
+  - C/B
+  - C\A
+  stimulus: *id008
+  with_equal: false
+- answer: C\B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - B/A
+  - A\C
+  - C\B
+  stimulus: *id002
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - B/A
+  - A\C
+  - A/C
+  stimulus: *id002
+  with_equal: false
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C|A
+  - A|B
+  - C/B
+  stimulus: *id007
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - A|C
+  - C\B
+  stimulus: *id005
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C|B
+  - A\B
+  - C\B
+  stimulus: *id007
+  with_equal: true
+- answer: B\C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - C\A
+  - A/B
+  - B\C
+  stimulus: *id001
+  with_equal: false
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\C
+  - B|A
+  - C\A
+  stimulus: *id003
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\C
+  - A\B
+  - A|C
+  stimulus: *id003
+  with_equal: true
+- answer: B/A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - B\C
+  - A/B
+  - B/A
+  stimulus: *id008
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - C|A
+  - B\C
+  stimulus: *id005
+  with_equal: true
+- answer: A\C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A\C
+  - C\A
+  - C\B
+  stimulus: *id004
+  with_equal: false
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - C\A
+  - A|C
+  - C|B
+  stimulus: *id006
+  with_equal: true
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - C/B
+  - B|C
+  - C|A
+  stimulus: *id005
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C\B
+  - B|A
+  - C/B
+  stimulus: *id007
+  with_equal: true
+- answer: C\A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - C\A
+  - A/B
+  - C/B
+  stimulus: *id008
+  with_equal: false
+- answer: A/B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - C/B
+  - A\C
+  - A/B
+  stimulus: *id002
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C|B
+  - C\B
+  - A/C
+  stimulus: *id007
+  with_equal: true
+- answer: C\B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - A\C
+  - C\B
+  - C/B
+  stimulus: *id002
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - A\B
+  - C|B
+  - C|A
+  stimulus: *id005
+  with_equal: true
+- answer: A/B
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A/B
+  - C\B
+  - A\B
+  stimulus: *id004
+  with_equal: false
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A\B
+  - A|C
+  - C|B
+  stimulus: *id006
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C/A
+  - C/B
+  - C\B
+  stimulus: *id008
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C|B
+  - B/A
+  - C|A
+  stimulus: *id005
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C\B
+  - C/B
+  - B\A
+  stimulus: *id008
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - B\C
+  - C\B
+  - A/B
+  stimulus: *id008
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A/C
+  - C/A
+  - B\C
+  stimulus: *id002
+  with_equal: false
+- answer: A/B
+  answer_type: identical
+  order: CAB
+  pairs:
+  - C\B
+  - A/B
+  - C\A
+  stimulus: *id004
+  with_equal: false
+- answer: A/C
+  answer_type: identical
+  order: BAC
+  pairs:
+  - A/C
+  - C/B
+  - A\C
+  stimulus: *id008
+  with_equal: false
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B/C
+  - B\C
+  - A/C
+  stimulus: *id004
+  with_equal: false
+- answer: C|B
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C|A
+  - C/B
+  - C|B
+  stimulus: *id005
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B\C
+  - A\B
+  - B|C
+  stimulus: *id006
+  with_equal: true
+- answer: B\A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - B\A
+  - B/A
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - C/A
+  - C\B
+  - C|B
+  stimulus: *id007
+  with_equal: true
+- answer: A/B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - B\C
+  - A/B
+  - C/A
+  stimulus: *id002
+  with_equal: false
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - B\A
+  - A\C
+  - C\A
+  stimulus: *id001
+  with_equal: false
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A/C
+  - B\A
+  - A\C
+  stimulus: *id001
+  with_equal: false
+- answer: B/A
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - C\B
+  - C\A
+  - B/A
+  stimulus: *id001
+  with_equal: false
+- answer: A/B
+  answer_type: identical
+  order: ABC
+  pairs:
+  - C/A
+  - A\B
+  - A/B
+  stimulus: *id002
+  with_equal: false
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\C
+  - A|B
+  - C\A
+  stimulus: *id003
+  with_equal: true
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C|A
+  - B/A
+  - C|B
+  stimulus: *id003
+  with_equal: true
+- answer: B|C
+  answer_type: identical
+  order: ABC
+  pairs:
+  - B/A
+  - C|A
+  - B|C
+  stimulus: *id005
+  with_equal: true
+- answer: A\C
+  answer_type: two_pairs
+  order: CBA
+  pairs:
+  - A\B
+  - A\C
+  - C|A
+  stimulus: *id003
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - C\B
+  - A/C
+  - B\C
+  stimulus: *id004
+  with_equal: false
+- answer: A\C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - C\B
+  - A\B
+  - A\C
+  stimulus: *id004
+  with_equal: false
+- answer: B\A
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - A\B
+  - A\C
+  - B\A
+  stimulus: *id002
+  with_equal: false
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C|A
+  - B|A
+  - B/C
+  stimulus: *id006
+  with_equal: true
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - A\B
+  - A/C
+  - A\C
+  stimulus: *id002
+  with_equal: false
+- answer: C|A
+  answer_type: identical
+  order: BAC
+  pairs:
+  - B|C
+  - C|A
+  - C/A
+  stimulus: *id007
+  with_equal: true
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A/C
+  - A|C
+  - C|B
+  stimulus: *id006
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - A\B
+  - B\C
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: A|C
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A|C
+  - A|B
+  - C/B
+  stimulus: *id007
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - B\C
+  - B\A
+  - C\B
+  stimulus: *id008
+  with_equal: false
+- answer: C|A
+  answer_type: reversed
+  order: CAB
+  pairs:
+  - C|B
+  - C\A
+  - C|A
+  stimulus: *id006
+  with_equal: true
+- answer: B\A
+  answer_type: reversed
+  order: ABC
+  pairs:
+  - C/A
+  - B\A
+  - C/B
+  stimulus: *id002
+  with_equal: false
+- answer: C|B
+  answer_type: identical
+  order: CBA
+  pairs:
+  - C/B
+  - A|C
+  - C|B
+  stimulus: *id003
+  with_equal: true
+- answer: A\C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - B/A
+  - C\B
+  - A\C
+  stimulus: *id004
+  with_equal: false
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B|C
+  - A|B
+  - C\A
+  stimulus: *id003
+  with_equal: true
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A|C
+  - B|C
+  - B/A
+  stimulus: *id006
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - B\C
+  - B/C
+  - C\A
+  stimulus: *id004
+  with_equal: false
+- answer: B/A
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B/A
+  - B/C
+  - A/C
+  stimulus: *id001
+  with_equal: false
+- answer: A\B
+  answer_type: identical
+  order: BAC
+  pairs:
+  - C/B
+  - A\B
+  - B\A
+  stimulus: *id008
+  with_equal: false
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - B|C
+  - C/B
+  - A|C
+  stimulus: *id003
+  with_equal: true
+- answer: C\B
+  answer_type: two_pairs
+  order: BAC
+  pairs:
+  - B/A
+  - C|B
+  - C\B
+  stimulus: *id007
+  with_equal: true
+- answer: B|C
+  answer_type: reversed
+  order: CBA
+  pairs:
+  - C|A
+  - C/B
+  - B|C
+  stimulus: *id003
+  with_equal: true
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - C\A
+  - B\C
+  - B/C
+  stimulus: *id004
+  with_equal: false
+- answer: A/C
+  answer_type: two_pairs
+  order: ABC
+  pairs:
+  - B/C
+  - A/C
+  - A|C
+  stimulus: *id005
+  with_equal: true
+- answer: A|C
+  answer_type: identical
+  order: CAB
+  pairs:
+  - A|C
+  - A\C
+  - B|C
+  stimulus: *id006
+  with_equal: true
+- answer: C\A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - B\A
+  - C\A
+  - B\C
+  stimulus: *id008
+  with_equal: false
+- answer: B\C
+  answer_type: two_pairs
+  order: CAB
+  pairs:
+  - C\B
+  - B/A
+  - B\C
+  stimulus: *id004
+  with_equal: false
+- answer: B/A
+  answer_type: reversed
+  order: BAC
+  pairs:
+  - A\C
+  - B\C
+  - B/A
+  stimulus: *id008
+  with_equal: false
