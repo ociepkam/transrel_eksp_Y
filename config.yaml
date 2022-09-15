@@ -1,0 +1,14 @@
+stimulus_type: Latin # implemented: Latin
+
+screen_color: #262626
+text_color: black
+text_size: 28
+
+# block
+block_order: [memory, no_memory]
+randomize_blocks: False
+
+# fixation point
+fixation_size: 56
+fixation_color: red
+fixation_text: +
