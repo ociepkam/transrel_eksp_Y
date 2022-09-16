@@ -6,6 +6,7 @@ text_size: 28
 
 # block
 block_order: [no_memory, no_memory]
+training_elements_per_group: 2  # training_len = training_elements_per_group * 6 (n_of_groups)
 randomize_blocks: False
 
 # fixation point

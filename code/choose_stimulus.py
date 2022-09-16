@@ -2,7 +2,7 @@ def choose_stimulus(stimulus_type):
     if stimulus_type == "Latin":
         import string
         alphabet = list(string.ascii_uppercase)
-        to_remove = "IQMERQW"
+        to_remove = "IQMERW"
         [alphabet.remove(elem) for elem in to_remove]
         stimulus = {"type": "text", "stimulus_list": alphabet}
     else:
