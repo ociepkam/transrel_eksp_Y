@@ -1,7 +1,37 @@
+from copy import deepcopy
+
+from psychopy.visual import TextStim
 import random
 import yaml
 from os.path import join
 import numpy as np
+
+
+def prepare_stim(win, trail_raw, config, stimulus_type):
+    trial = deepcopy(trail_raw)
+    if stimulus_type == "text":
+        pos = [config["stimulus_pos"][0] - config["distance_between_stim_pairs"][0] / 2 - config["distance_in_pair"][0],
+               config["stimulus_pos"][1] - config["distance_between_stim_pairs"][1] / 2 - config["distance_in_pair"][1]]
+        for i, pair in enumerate(trial["stimulus"]):
+            for c, elem in enumerate(pair):
+                trial["stimulus"][i][c] = TextStim(win, color=config["text_color"], text=elem,
+                                                   height=config["elements_size"], pos=pos)
+                pos[0] += config["distance_in_pair"][0]
+                pos[1] += config["distance_in_pair"][1]
+            pos[0] += config["distance_between_stim_pairs"][0]
+            pos[1] += config["distance_between_stim_pairs"][1]
+
+        pos = [config["answers_pos"][0] - config["distance_between_answer_pairs"][0] * 1.5 - config["distance_in_pair"][0],
+               config["answers_pos"][1] - config["distance_between_answer_pairs"][1] * 1.5 - config["distance_in_pair"][1]]
+        for i, pair in enumerate(trial["pairs"]):
+            for c, elem in enumerate(pair):
+                trial["pairs"][i][c] = TextStim(win, color=config["text_color"], text=elem,
+                                                height=config["elements_size"], pos=pos)
+                pos[0] += config["distance_in_pair"][0]
+                pos[1] += config["distance_in_pair"][1]
+            pos[0] += config["distance_between_answer_pairs"][0]
+            pos[1] += config["distance_between_answer_pairs"][1]
+        return trial
 
 
 def replace_stimulus_in_pair(pair, new_stimulus):
@@ -14,7 +44,8 @@ def replace_stimulus_in_pair(pair, new_stimulus):
     return new_pair
 
 
-def replace_stimulus(trial, allowed_stimulus):
+def replace_stimulus(trial_raw, allowed_stimulus):
+    trial = deepcopy(trial_raw)
     a, b, c = np.random.choice(allowed_stimulus, 3, replace=False)
     new_stimulus = {"A": a, "B": b, "C": c}
     trial["stimulus"] = [replace_stimulus_in_pair(pair, new_stimulus) for pair in trial["stimulus"]]
